@@ -1,70 +1,88 @@
-# Mumbai Waste Management System
+# कचरा RE Mumbai Waste Management System
 
-## Overview (1-Minute Explanation)
-A comprehensive waste management solution for Mumbai city that enables real-time tracking and management of waste collection activities.
+A modern web-based waste management system designed to optimize waste collection and recycling efforts in Mumbai. This platform integrates real-time tracking, analytics, and multilingual support to ensure efficient waste disposal and management.
 
-### Key Features
-- **Smart Dashboard**
-  - Real-time statistics (Total Waste Collected, Recycling Rate)
-  - Active Collection Points monitoring
-  - Bins capacity status
-  - Waste distribution visualization
+कचरा RE is a smart waste economy platform connecting raddiwalas, government, recyclers, and citizens to turn waste into rewards. Here's the link to the mobile counterpart, targeted for users and local raddiwalas:
 
-- **Collection Management**
-  - Schedule and track waste collections
-  - Team assignments (Teams 1-6)
-  - Status tracking (Scheduled, In Progress, Completed)
-  - Multiple waste types (General, Recyclable, Hazardous, etc.)
+https://github.com/KausLol/KachraRe-App
 
-- **Collection Points**
-  - Interactive map with 10 strategic locations across Mumbai
-  - Real-time capacity monitoring
-  - Status indicators (Active, Maintenance, Full)
-  - Detailed point information and history
+## Features
 
-- **Reports & Analytics**
-  - Waste type distribution charts
-  - Collection trends analysis
-  - Team performance metrics
-  - Recycling rate tracking
+- 🎨 Smart Dashboard with real-time waste statistics
+- 📍 Interactive Map with 10 strategic collection points
+- 🗑 Collection Management (Schedule & Track Collections)
+- 📊 Reports & Analytics for tracking waste trends
+- 🔄 Real-time Status Updates on waste collection
+- 🌍 Multilingual Support (English, Hindi, Marathi)
 
-- **Multilingual Support**
-  - English
-  - Hindi (हिंदी)
-  - Marathi (मराठी)
+## Tech Stack
 
-### Tech Stack
-- **Frontend**
-  - React.js with Vite
-  - Material-UI for modern UI components
-  - Leaflet.js for interactive maps
-  - Chart.js for data visualization
-  - Context API for state management
+### Frontend
 
-- **Backend**
-  - Flask (Python) REST API
-  - SQLite database
-  - SQLAlchemy ORM
-  - Flask-CORS for cross-origin support
+- React.js with Vite
+- Material-UI for modern UI components
+- Leaflet.js for interactive maps
+- Chart.js for data visualization
+- Context API for state management
 
-### Getting Started
-1. Clone the repository
-2. Start the Flask server:
-   ```bash
-   cd server
-   python app.py
-   ```
-3. Start the React client:
-   ```bash
-   cd client
-   npm install
-   npm run dev
-   ```
+### Backend
 
-### Contributors
-- Team ByteMe
+- Flask (Python) REST API
+- SQLite database (scalable to PostgreSQL)
+- SQLAlchemy ORM
+- Flask-CORS for cross-origin support
+
+## Screenshots
+
+<img src="https://i.imgur.com/54XTjSP.png">
+<img src="https://i.imgur.com/B0uyv5y.png">
+<img src="https://i.imgur.com/H9gWCmT.png">
+
+
+## Getting Started
+
+### Backend Setup
+
+1. Clone the repository and navigate to the backend folder:
+```bash
+cd flask-server
+```
+
+2. Create and activate a virtual environment:
+```bash
+python -m venv venv
+source venv/bin/activate  # On Windows: venv\Scripts\activate
+```
+
+3. Install dependencies:
+```bash
+pip install -r requirements.txt
+```
+
+4. Run the Flask server:
+```bash
+python server.py
+```
+
+### Frontend Setup
+
+1. Navigate to the client directory:
+```bash
+cd client
+```
+
+2. Install dependencies:
+```bash
+npm install
+```
+
+3. Start the React development server:
+```bash
+npm start
+```
 
 ## Project Structure
+
 ```
 waste-management/
 ├── flask-server/          # Backend Flask application
@@ -82,49 +100,18 @@ waste-management/
 │       └── utils/       # Utility functions
 ```
 
-## Technology Stack
-- Backend: Flask (Python)
-- Frontend: React (JavaScript/TypeScript)
-- Database: SQLite (can be scaled to PostgreSQL)
-
-## Setup Instructions
-
-### Backend Setup
-1. Navigate to the flask-server directory
-```bash
-cd flask-server
-```
-2. Create and activate virtual environment
-```bash
-python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
-```
-3. Install dependencies
-```bash
-pip install -r requirements.txt
-```
-4. Run the server
-```bash
-python server.py
-```
-
-### Frontend Setup
-1. Navigate to the client directory
-```bash
-cd client
-```
-2. Install dependencies
-```bash
-npm install
-```
-3. Run the development server
-```bash
-npm start
-```
-
 ## Features (Coming Soon)
+
 - Waste collection scheduling
 - Route optimization
 - Waste segregation tracking
-- Analytics and reporting
-- User management 
+- Advanced analytics and reporting
+- User management
+
+
+## Contributors
+Team ByteMe
+
+License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
