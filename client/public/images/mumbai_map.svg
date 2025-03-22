@@ -1,0 +1,47 @@
+<svg width="1200" height="800" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="100%" height="100%" fill="#e6f2ff"/>
+  
+  <!-- Water bodies -->
+  <path d="M0,300 Q600,500 1200,400 L1200,800 L0,800 Z" fill="#a5d7f7"/>
+  
+  <!-- Land mass representing Mumbai -->
+  <path d="M200,100 Q400,50 600,150 Q800,250 900,400 Q950,500 850,600 Q700,700 500,650 Q300,600 200,500 Q100,400 200,100 Z" fill="#d4e6c3" stroke="#8aae92" stroke-width="2"/>
+  
+  <!-- Roads -->
+  <path d="M400,150 Q500,200 600,300 Q700,400 800,500" stroke="#ffffff" stroke-width="8" fill="none"/>
+  <path d="M300,200 Q400,300 500,400 Q600,500 700,600" stroke="#ffffff" stroke-width="6" fill="none"/>
+  <path d="M500,150 L700,350" stroke="#ffffff" stroke-width="5" fill="none"/>
+  <path d="M550,250 L750,450" stroke="#ffffff" stroke-width="5" fill="none"/>
+  <path d="M350,300 L550,500" stroke="#ffffff" stroke-width="5" fill="none"/>
+  
+  <!-- City labels -->
+  <!-- Mumbai main -->
+  <text x="500" y="350" font-family="Arial" font-size="36" font-weight="bold" fill="#37474f" text-anchor="middle">MUMBAI</text>
+  
+  <!-- Areas -->
+  <text x="400" y="250" font-family="Arial" font-size="18" fill="#37474f">Andheri</text>
+  <text x="350" y="350" font-family="Arial" font-size="18" fill="#37474f">Bandra</text>
+  <text x="470" y="400" font-family="Arial" font-size="18" fill="#37474f">Dharavi</text>
+  <text x="560" y="480" font-family="Arial" font-size="18" fill="#37474f">Govandi</text>
+  <text x="520" y="520" font-family="Arial" font-size="18" fill="#37474f">Mankhurd</text>
+  <text x="300" y="200" font-family="Arial" font-size="18" fill="#37474f">Vasai-Virar</text>
+  <text x="700" y="250" font-family="Arial" font-size="18" fill="#37474f">Thane</text>
+  <text x="750" y="450" font-family="Arial" font-size="18" fill="#37474f">Navi Mumbai</text>
+  <text x="650" y="550" font-family="Arial" font-size="18" fill="#37474f">Panvel</text>
+  
+  <!-- Highways -->
+  <path d="M300,250 Q450,300 600,350 Q750,400 900,450" stroke="#ffc107" stroke-width="3" fill="none"/>
+  <path d="M350,150 Q500,250 650,350" stroke="#ffc107" stroke-width="3" fill="none"/>
+  <path d="M450,500 Q550,450 650,400" stroke="#ffc107" stroke-width="3" fill="none"/>
+  
+  <!-- Grid lines for reference -->
+  <path d="M0,200 L1200,200" stroke="#c5d5e5" stroke-width="1" stroke-dasharray="5,5" fill="none"/>
+  <path d="M0,400 L1200,400" stroke="#c5d5e5" stroke-width="1" stroke-dasharray="5,5" fill="none"/>
+  <path d="M0,600 L1200,600" stroke="#c5d5e5" stroke-width="1" stroke-dasharray="5,5" fill="none"/>
+  <path d="M200,0 L200,800" stroke="#c5d5e5" stroke-width="1" stroke-dasharray="5,5" fill="none"/>
+  <path d="M400,0 L400,800" stroke="#c5d5e5" stroke-width="1" stroke-dasharray="5,5" fill="none"/>
+  <path d="M600,0 L600,800" stroke="#c5d5e5" stroke-width="1" stroke-dasharray="5,5" fill="none"/>
+  <path d="M800,0 L800,800" stroke="#c5d5e5" stroke-width="1" stroke-dasharray="5,5" fill="none"/>
+  <path d="M1000,0 L1000,800" stroke="#c5d5e5" stroke-width="1" stroke-dasharray="5,5" fill="none"/>
+</svg> 
