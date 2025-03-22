@@ -1,8 +1,8 @@
-# कचरा RE Mumbai Waste Management System
+# कचरा RE (Mumbai Waste Management System)
 
-A modern web-based waste management system designed to optimize waste collection and recycling efforts in Mumbai. This platform integrates real-time tracking, analytics, and multilingual support to ensure efficient waste disposal and management.
+A modern web-based waste management system designed to optimize waste collection and recycling efforts in Mumbai, and is targeted for muncipal corporations. It integrates real-time tracking, analytics, and multilingual support to ensure efficient waste disposal and management.
 
-कचरा RE is a smart waste economy platform connecting raddiwalas, government, recyclers, and citizens to turn waste into rewards. Here's the link to the mobile counterpart, targeted for users and local raddiwalas:
+कचरा RE is a smart waste economy platform connecting raddiwalas, government, recyclers, and citizens to turn waste into rewards. Here's the link to the mobile counterpart, targeted for users and local "raddiwalas":
 
 https://github.com/KausLol/KachraRe-App
 
