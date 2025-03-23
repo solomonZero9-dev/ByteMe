@@ -111,7 +111,17 @@ waste-management/
 
 ## Contributors
 
-Team ByteMe
+### Team ByteMe
+
+This project was created as part of WEHACK Hackathon, where we had the opportunity to learn, innovate, and collaborate. We extend our gratitude to the organizers for providing an enriching experience that pushed our skills and creativity.
+
+A special thanks to our collaborators:
+
+- solomonZero9-dev
+- KausLol
+- Jeetruia
+- RoyceAntony9
+
 
 ## License
 
