@@ -5,7 +5,7 @@ A modern web-based waste management system designed to optimize waste collection
 कचरा RE is a smart waste economy platform connecting raddiwalas, government, recyclers, and citizens to turn waste into rewards.
 
 To have a look at our project, please watch this video:  
-https://www.youtube.com/watch?v=t0zYd3e2dyU
+https://youtu.be/UWqcHE12oMY
 
 Here's the link to the mobile counterpart, targeted for users and local "raddiwalas":  
 https://github.com/KausLol/KachraRe-App
