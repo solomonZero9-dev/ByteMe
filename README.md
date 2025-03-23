@@ -109,7 +109,7 @@ waste-management/
 - User management
 
 
-## Contributors
+## Contributors & Acknowledgement
 
 ### Team ByteMe
 
